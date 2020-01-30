@@ -1,0 +1,28 @@
+{
+    "script": "tgju_usd.py",
+    "framework": "Python",
+    "communicator": "None",
+    "target": "local",
+    "environment": {
+        "python": {
+            "userManagedDependencies": true,
+            "interpreterPath": "python"
+        },
+        "docker": {
+            "baseImage": "mcr.microsoft.com/azureml/base:0.2.4",
+            "enabled": false,
+            "baseImageRegistry": {
+                "address": null,
+                "username": null,
+                "password": null
+            }
+        }
+    },
+    "history": {
+        "outputCollection": true,
+        "snapshotProject": false,
+        "directoriesToWatch": [
+            "logs"
+        ]
+    }
+}
